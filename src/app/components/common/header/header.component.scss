@@ -1,0 +1,23 @@
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+
+}
+.menu > ul > li{
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu{
+    background-color: #7393B3;
+}
+.menu > ul > li > a {
+    font-weight: bold;
+}
+.menu > ul > li :hover {
+   cursor: pointer;
+   background-color: black;
+   color:#7393b3;
+}
+
