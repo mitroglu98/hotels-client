@@ -1,12 +1,5 @@
 <h1> List of hotels: </h1>
-
-<div *ngIf='showDiv'> 
-<p>This is shown based on *ngIf.</p>
+<div class = "row">
+<app-hotel-list-item  *ngFor = "let h of hotels"[hotel] = "h"></app-hotel-list-item>
 </div>
-<div class="hotel-list"> 
-
-<p *ngFor='let h of hotels'>
-    {{h.hid}} | {{h.name}} | {{h.year}}
-</p>
-    </div>
 
